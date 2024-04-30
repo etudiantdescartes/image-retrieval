@@ -5,8 +5,11 @@ nal of ComputerVision,7 :1, 11-32 (1991)” contient l'espace de couleur utilis�
 ainsi que la formule d’intersection d’histogrammes utilisée pour la comparaison d'images.
 
 rg = r − g
+
 by = 2 ∗ b − r − g
+
 wb = r + g + b
+
 - **Sum of Minimums**:
   Calculate the sum of the minimum values between two paired series (`I` and `M`) from 1 to `n`.
   \[

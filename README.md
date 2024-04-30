@@ -16,4 +16,10 @@ On intègre cette formule d’intersection dans un mécanisme
 de requêtes, en triant les images par ordre de similarité, pour récupérer les k
 plus proches.
 
+J'ai aussi testé un clustering par kmeans et commencé une représentation par graphe des images pour la comparaison
 
+- ```segmentation.py``` permet d'obtenir les masques des objets pour ignorer le fond
+- ```plotxlsx.py``` evaluation et affichage des résultats
+- ```kmeans.py``` clustering des vecteurs avec méthode elbow
+- ```ter.py``` script principal qui permet d'effectuer la comparaison des images dans les 3 espaces de couleurs
+- ```region_graph.py``` permet de créer un graph dont les noeuds représentent les régions obtenues par segmentation avec kmeans, et les arrêtes les relations d'adjacence

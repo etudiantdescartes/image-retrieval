@@ -4,4 +4,10 @@ sur différents ensembles d’images dans différents espaces de couleurs. Le pa
 nal of ComputerVision,7 :1, 11-32 (1991)” contient l'espace de couleur utilisé dans ce projet
 ainsi que la formule d’intersection d’histogrammes utilisée pour la comparaison d'images.
 
-**sdg**
+rg = r − g
+by = 2 ∗ b − r − g
+wb = r + g + b
+
+  \[
+  \sum_{i=1}^n \min(I_i, M_i)
+  \]

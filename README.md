@@ -9,4 +9,4 @@ L'espace rg,by,wb est défini par:
 - by = 2 ∗ b − r − g
 - wb = r + g + b
 
-![alt text](formula.jpg)
+![alt text](formula.png)

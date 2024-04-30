@@ -7,7 +7,8 @@ ainsi que la formule d’intersection d’histogrammes utilisée pour la compara
 rg = r − g
 by = 2 ∗ b − r − g
 wb = r + g + b
-
+- **Sum of Minimums**:
+  Calculate the sum of the minimum values between two paired series (`I` and `M`) from 1 to `n`.
   \[
   \sum_{i=1}^n \min(I_i, M_i)
   \]

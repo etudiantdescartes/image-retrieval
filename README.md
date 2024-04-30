@@ -23,3 +23,11 @@ J'ai aussi testé un clustering par kmeans et commencé une représentation par 
 - ```kmeans.py``` clustering des vecteurs avec méthode elbow
 - ```ter.py``` script principal qui permet d'effectuer la comparaison des images dans les 3 espaces de couleurs
 - ```region_graph.py``` permet de créer un graph dont les noeuds représentent les régions obtenues par segmentation avec kmeans, et les arrêtes les relations d'adjacence
+
+
+# Bibliotèques
+- ```pip install opencv-python```
+- ```pip install kneed```
+- ```pip install networkx```
+- ```pip install scipy```
+- ```pip install natsort```

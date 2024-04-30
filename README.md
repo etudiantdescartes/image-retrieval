@@ -9,4 +9,11 @@ L'espace rg,by,wb est défini par:
 - by = 2 ∗ b − r − g
 - wb = r + g + b
 
+Formule d'intersection d'histogrammes:
 ![alt text](formula.png)
+Où I et M sont deux vecteurs caractéristiques de deux images.
+On intègre cette formule d’intersection dans un mécanisme
+de requêtes, en triant les images par ordre de similarité, pour récupérer les k
+plus proches.
+
+
